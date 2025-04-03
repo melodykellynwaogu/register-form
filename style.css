@@ -1,0 +1,132 @@
+/* Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+/* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background: linear-gradient(135deg, #6e8efb, #a777e3);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 20px;
+    font-size: 2
+}
+
+/* Form Container */
+form {
+    background: #ffffff;
+    padding: 25px;
+    width: 100%;
+    height: 50%;
+    max-width: 450px;
+    border-radius: 12px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+/* Form Header */
+h1 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+
+p {
+    font-size: 14px;
+    color: #555;
+    margin-bottom: 15px;
+}
+
+/* Input Styles */
+label {
+    display: block;
+    font-weight: 600;
+    margin: 10px 0 5px;
+    text-align: left;
+}
+
+input, select, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 2px solid #ddd;
+    border-radius: 6px;
+    font-size: 14px;
+    transition: 0.3s;
+}
+
+input:focus, select:focus, textarea:focus {
+    border-color: #6e8efb;
+    outline: none;
+    box-shadow: 0 0 5px rgba(110, 142, 251, 0.5);
+}
+
+/* Radio Buttons */
+fieldset {
+    border: none;
+    margin: 15px 0;
+    text-align: left;
+}
+
+legend {
+    font-weight: 600;
+    font-size: 14px;
+    color: #444;
+}
+
+input[type="radio"] {
+    margin-right: 8px;
+}
+
+/* File Input */
+input[type="file"] {
+    background: #f9f9f9;
+    padding: 10px;
+}
+
+/* Terms & Conditions */
+.modal p {
+    font-size: 12px;
+    color: #666;
+}
+
+/* Checkbox */
+input[type="checkbox"] {
+    margin-right: 5px;
+}
+
+/* Submit Button */
+input[type="submit"] {
+    background: linear-gradient(90deg, #6e8efb, #a777e3);
+    color: white;
+    border: none;
+    padding: 12px;
+    font-size: 16px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: 0.3s;
+    display: block;
+    width: 100%;
+    margin-top: 10px;
+}
+
+input[type="submit"]:hover {
+    background: linear-gradient(90deg, #5b78f6, #9063e1);
+    transform: scale(1.02);
+}
+
+/* Responsive Design */
+@media (max-width: 480px) {
+    form {
+        width: 100%;
+        padding: 20px;
+    }
+}
