@@ -1,7 +1,5 @@
-/* Google Font */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
 
-/* General Styles */
 * {
     margin: 0;
     padding: 0;
@@ -19,7 +17,6 @@ body {
     font-size: 2
 }
 
-/* Form Container */
 form {
     background: #ffffff;
     padding: 25px;
@@ -31,7 +28,6 @@ form {
     text-align: center;
 }
 
-/* Form Header */
 h1 {
     font-size: 24px;
     color: #333;
@@ -45,7 +41,6 @@ p {
     margin-bottom: 15px;
 }
 
-/* Input Styles */
 label {
     display: block;
     font-weight: 600;
@@ -69,7 +64,6 @@ input:focus, select:focus, textarea:focus {
     box-shadow: 0 0 5px rgba(110, 142, 251, 0.5);
 }
 
-/* Radio Buttons */
 fieldset {
     border: none;
     margin: 15px 0;
@@ -86,24 +80,20 @@ input[type="radio"] {
     margin-right: 8px;
 }
 
-/* File Input */
 input[type="file"] {
     background: #f9f9f9;
     padding: 10px;
 }
 
-/* Terms & Conditions */
 .modal p {
     font-size: 12px;
     color: #666;
 }
 
-/* Checkbox */
 input[type="checkbox"] {
     margin-right: 5px;
 }
 
-/* Submit Button */
 input[type="submit"] {
     background: linear-gradient(90deg, #6e8efb, #a777e3);
     color: white;
@@ -123,7 +113,6 @@ input[type="submit"]:hover {
     transform: scale(1.02);
 }
 
-/* Responsive Design */
 @media (max-width: 480px) {
     form {
         width: 100%;
